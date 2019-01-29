@@ -1,5 +1,5 @@
 .nav-padding {
-  padding: 15px 0;
+  padding: 15px 10px;
 }
 
 .link-blog {
@@ -7,4 +7,9 @@
   &:hover {
     text-decoration: underline;
   }
+}
+
+.emoji-title {
+  font-size: 30px;
+  vertical-align: text-bottom;
 }

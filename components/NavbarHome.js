@@ -12,18 +12,18 @@ export default class NavbarHome extends Component {
 
   render() {
     return (
-      <div>
-        <nav className="level nav-padding">
+      <header className="container">
+        <nav className="level nav-padding nav__height">
           <div className="level-left">
             <div className="level-item">
-              <h1 className="title is-2">
-                <strong>Luis Locon <span className="emoji-title">{this.state.emojiArr[Math.floor(Math.random() * ((this.state.emojiArr.length-1) - 0 + 1)) + 0]}</span></strong>
+              <h1 className="title is-1">
+                <span>{this.state.emojiArr[Math.floor(Math.random() * ((this.state.emojiArr.length-1) - 0 + 1)) + 0]}</span>
               </h1>
             </div>
           </div>
           {/** Bar of the social media*/}
           <div className="level-right social-icon is-mobile">
-            <p className="level-item"><a className="link-blog"><strong>Blog</strong></a></p>
+            <p className="level-item blog--anchor"><a className="link-blog"><strong>Blog</strong></a></p>
             <p className="level-item"><a href="https://www.instagram.com/loconluis/" target="_blank"><i className="fab fa-instagram"/></a></p>
             <p className="level-item"><a href="https://twitter.com/LoconLuis" target="_blank"><i className="fab fa-twitter"/></a></p>
             <p className="level-item"><a href="https://github.com/loconluis" target="_blank"><i className="fab fa-github-alt"/></a></p>
@@ -32,7 +32,7 @@ export default class NavbarHome extends Component {
             <p className="level-item"><a href="" target="_blank">CV</a></p>
           </div>
         </nav>
-      </div>
+      </header>
     )
   }
 }

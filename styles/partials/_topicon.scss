@@ -3,11 +3,18 @@
     padding: 0 5px;
   }
   a {
-    color: #969696;
+    color: $gray;
     font-size: 20px;
     transition: 0.3s;
     &:hover {
-      color: #000;
+      color: $black;
+    }
+  }
+  .blog--anchor > a{
+    color: lighten($pink, 25%);
+    transition: 0.3s;
+    &:hover {
+      color: $pink;
     }
   }
   

@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
           <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
         </Head>
         <body>
-          <div className="container">
+          <div className="container-fluid">
             <Main />
             <NextScript />
           </div>

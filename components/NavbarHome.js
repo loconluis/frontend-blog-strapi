@@ -12,7 +12,7 @@ export default class NavbarHome extends Component {
 
   render() {
     return (
-      <header className="container">
+      <div className="container">
         <nav className="level nav-padding nav__height">
           <div className="level-left">
             <div className="level-item">
@@ -32,7 +32,7 @@ export default class NavbarHome extends Component {
             <p className="level-item"><a href="" target="_blank">CV</a></p>
           </div>
         </nav>
-      </header>
+      </div>
     )
   }
 }
